@@ -1,0 +1,42 @@
+{
+  "name": "joke-ui",
+  "version": "1.0.0",
+  "description": "just joke, just learn",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "homepage": "https://github.com/lanpangzi-zkg/joke-ui",
+  "bugs": {
+    "url": "https://github.com/lanpangzi-zkg/joke-ui/issues"
+  },
+  "keywords": [],
+  "author": "1090140795@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-react": "^7.24.0",
+    "father": "^2.30.6",
+    "prettier": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.2",
+    "react-dom": ">=17.0.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.6"
+  }
+}

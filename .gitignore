@@ -1,0 +1,7 @@
+node_modules/
+.docz/
+package-lock.json
+webpack.config.js
+dist/
+es/
+lib/
